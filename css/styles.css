@@ -38,6 +38,7 @@ header h3{
 .second-line{
     border-top: 2px solid #334054;
     margin-top: 0.3rem;
+    margin-bottom: 1rem;
     width: 92%;
 }
 
@@ -68,10 +69,12 @@ header h3{
 
 .newsletter-input label{
     opacity: 0.7;
-    margin-bottom: 0.7rem;   
-    margin-top: 1rem;
+    margin-bottom: 0.4rem;   
 }
 
+fieldset{
+    border: none;
+}
 
 .form-input input{
     background: #EEEEEE;
@@ -116,7 +119,11 @@ header h3{
     }
 
 .newsletter-format{
-    margin-top: 1.2rem;
+    margin-top: 2.0rem;
+}
+
+.other-topics{
+    margin-top: 1rem;
 }
 
 textarea{
@@ -157,10 +164,14 @@ footer{
 .contact-label{
     width: 90%;
     margin: 1.5rem auto;
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 .newsletter-label{
     width: 90%;
-    margin: 1.5rem auto;
+    margin: 1rem auto;
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 @media (min-width: 768px) {
     .form-input{
